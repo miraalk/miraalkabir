@@ -22,8 +22,24 @@
     right: 180px;
   }
 
-  .text-block2 {
+  .text-blockk {
+    position: absolute;
+    color: #131946;
+    top: 1800px;
+    left: 280px;
+    right: 280px;
+    margin-bottom: -1000px;
+  }
 
+  .text-block-footer {
+    position: absolute;
+    color: #131946;
+    left: 200px;
+    right: 280px;
+    margin-top: -350px;
+  }
+
+  .text-block2 {
     top: 160px;
     /*left: 70px; */
     background-color: transparent;

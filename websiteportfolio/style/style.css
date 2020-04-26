@@ -17,6 +17,11 @@
     font-size: 16px;
     margin: 10px 2px;
     cursor: pointer;
+    margin-bottom: -50px;
+  }
+
+  .button :hover{
+    background-color: #bdbdbd;
   }
 
   /* Setting fade transition and default settings */
@@ -29,7 +34,7 @@ body {
 /* panel styles */
 .panel {
   /* min height incase content is higher than window height */
-  min-height: 190vh;
+  height: 450px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -40,7 +45,7 @@ body {
 
 .panel2 {
   /* min height incase content is higher than window height */
-  min-height: 100vh;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -63,24 +68,8 @@ body {
 }
 
 .footer {
-  margin-top: -6000px;
-  height: 100px;
-}
-
-.horizontal-scroll-wrapper {
-  width: 200px;
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transform-origin: left top;
-  transform:rotate(-90deg) translateY(-100px);
-  background-color: rosybrown;
-}
-
-.horizontal-scroll-wrapper > div {
-  width: 100px;
-  height: 100px;
-  transform: rotate(90deg);
-  transform-origin: left top;
-  background-color: saddlebrown;
+margin-top: 2300px;
+height: 470px;
+background-color:  #DFEBEB;
+color: red;
 }
